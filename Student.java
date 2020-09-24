@@ -1,12 +1,3 @@
-
-package question3;
-
-//********************************************************************
-//  Student.java       Author: Lewis/Loftus
-//
-//  Represents a college student.
-//********************************************************************
-
 public class Student
 {
    private String firstName, lastName;
@@ -14,10 +5,6 @@ public class Student
    private int testScore1, testScore2, testScore3;
    private double finalAverage;
    
-
-   //-----------------------------------------------------------------
-   //  Constructor: Sets up this student with the specified values.
-   //-----------------------------------------------------------------
    public Student (String first, String last, Address home,
                    Address school, int testOne, int testTwo, int testThree)
    {
@@ -109,9 +96,7 @@ public class Student
 	   return finalAverage/3;
 	   
    }
-    //-----------------------------------------------------------------
-   //  Returns a string description of this Student object.
-   //-----------------------------------------------------------------
+
    public String toString()
    {
       String result;
