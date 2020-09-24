@@ -1,5 +1,3 @@
-package question3;
-
 public class CourseBody {
 
    public static void main(String[] args) {
